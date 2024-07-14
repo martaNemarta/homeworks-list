@@ -1,0 +1,60 @@
+.cat{
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  background-color:#00224D ;
+}
+.App{
+  background-color: beige;
+  min-height: 90vh;
+  width: 500px;
+  margin: 30px auto;
+}
+img{
+  border-radius: 10%;
+}
+.these{
+  text-decoration: line-through 2px red;
+  background-color:#f0f0f0 ;
+}
+ul,li{
+  padding: 10px;
+  margin: 0;
+  list-style-type: none;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+h1{
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+.add{
+  margin-top: 5px;
+  background-color:#FF204E ;
+}
+.del{
+  margin-bottom: 5px;
+  background-color:#FF204E ;
+}
+.btn{
+  padding: 10px;
+  border: none;
+  width: 70%;
+  color: white;
+  font-size: 16px;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+input{
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+} 
